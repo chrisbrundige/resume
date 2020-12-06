@@ -1,6 +1,6 @@
 body {
   padding: 10px;
-  background-color: fffff;
+  background-color: rgb(0, 160, 229);
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 10px;
@@ -17,6 +17,7 @@ body {
   grid-column: 2/-1;
   padding: 20px;
   height: 100%;
+  background-color:white;
 }
 
 #profile {
@@ -83,6 +84,27 @@ a {
     
 }
 
-img {
-    
+.f_name{
+
+    font-family: "railway", bold;
+    font-size:5em;
+
 }
+
+
+.l_name{
+    font-family: "railway", thin;
+    font-size:5em;
+
+}
+
+.name-wrap{
+    display:flex;
+    align-items: center;
+}
+
+#ph{
+    color:#bada55;
+    font-size:.75em;
+    text-transform:uppercase;
+    padding:10px;
