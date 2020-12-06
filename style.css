@@ -108,3 +108,19 @@ a {
     font-size:.75em;
     text-transform:uppercase;
     padding:10px;
+
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height:225px;
+    width:auto;
+    font-size:100px;
+    border:1px solid;
+    border-radius:60%;
+  
+
+}
